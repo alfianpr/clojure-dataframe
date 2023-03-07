@@ -1,0 +1,422 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "Leiningen"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-dataframe.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 0]
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 0]
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 0]
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 2]:
+
+| :a | :b |
+|----|----|
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 2]:
+
+| :a | :b |
+|----|----|
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 1]:
+
+| [:a :b] |
+|---------|
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 1]:
+
+| [:a :b] |
+|---------|
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [0 2]:
+
+| :a | :b |
+|----|----|
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [1 3]:
+
+| :a | :b | :c |
+|---:|---:|---:|
+| 33 | 44 | 55 |
+
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ArityException) at clojure-dataframe.core/eval29750 (form-init6947165778203790192.clj:17).
+; Wrong number of args (3) passed to: clojure.core/into-array
+clj꞉clojure-dataframe.core꞉> 
+[3, 4, 5]
+clj꞉clojure-dataframe.core꞉> 
+[3, 4, 5]
+clj꞉clojure-dataframe.core꞉> 
+[3, 4, 5]
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at clojure-dataframe.core/eval29758 (form-init6947165778203790192.clj:17).
+; clojure.lang.PersistentVector cannot be cast to java.lang.Number
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at clojure-dataframe.core/eval29760 (form-init6947165778203790192.clj:17).
+; clojure.lang.PersistentVector cannot be cast to java.lang.Number
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at clojure-dataframe.core/eval29762 (form-init6947165778203790192.clj:17).
+; clojure.lang.PersistentVector cannot be cast to java.lang.Number
+clj꞉clojure-dataframe.core꞉> 
+([3, 4, 5] [7, 6, 9])
+clj꞉clojure-dataframe.core꞉> 
+[[3, 4, 5], [7, 6, 9]]
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+[[I@734f72fd [2 2]:
+
+|  :layout | :column-name |
+|----------|--------------|
+| :as-rows |           :a |
+| :as-rows |           :b |
+
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at clojure-dataframe.core/eval29772 (form-init6947165778203790192.clj:17).
+; clojure.lang.LazySeq cannot be cast to java.lang.Class
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at clojure-dataframe.core/eval29774 (form-init6947165778203790192.clj:17).
+; clojure.lang.LazySeq cannot be cast to java.lang.Class
+clj꞉clojure-dataframe.core꞉> 
+[[I@61b1f0ef [2 2]:
+
+|  :layout | :column-name |
+|----------|--------------|
+| :as-rows |           :a |
+| :as-rows |           :b |
+
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+#'clojure-dataframe.core/DS
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (AbstractMethodError) at tech.v3.dataset.impl.dataset.Dataset/null (dataset.clj:-1).
+; Method tech/v3/dataset/impl/dataset/Dataset.invoke()Ljava/lang/Object; is abstract
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [9 4]:
+
+| :V1 | :V2 | :V3 | :V4 |
+|----:|----:|----:|-----|
+|   1 |   1 | 0.5 |   A |
+|   2 |   2 | 1.0 |   B |
+|   1 |   3 | 1.5 |   C |
+|   2 |   4 | 0.5 |   A |
+|   1 |   5 | 1.0 |   B |
+|   2 |   6 | 1.5 |   C |
+|   1 |   7 | 0.5 |   A |
+|   2 |   8 | 1.0 |   B |
+|   1 |   9 | 1.5 |   C |
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [9 4]:
+
+| :V1 | :V2 | :V3 | :V4 |
+|----:|----:|----:|-----|
+|   1 |   1 | 0.5 |   A |
+|   2 |   2 | 1.0 |   B |
+|   1 |   3 | 1.5 |   C |
+|   2 |   4 | 0.5 |   A |
+|   1 |   5 | 1.0 |   B |
+|   2 |   6 | 1.5 |   C |
+|   1 |   7 | 0.5 |   A |
+|   2 |   8 | 1.0 |   B |
+|   1 |   9 | 1.5 |   C |
+
+nil
+clj꞉clojure-dataframe.core꞉> 
+#'clojure-dataframe.core/DS
+nil
+clj꞉clojure-dataframe.core꞉> 
+#'clojure-dataframe.core/DS
+nil
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [9 4]:
+
+| :V1 | :V2 | :V3 | :V4 |
+|----:|----:|----:|-----|
+|   1 |   1 | 0.5 |   A |
+|   2 |   2 | 1.0 |   B |
+|   1 |   3 | 1.5 |   C |
+|   2 |   4 | 0.5 |   A |
+|   1 |   5 | 1.0 |   B |
+|   2 |   6 | 1.5 |   C |
+|   1 |   7 | 0.5 |   A |
+|   2 |   8 | 1.0 |   B |
+|   1 |   9 | 1.5 |   C |
+
+nil
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [9 4]:
+
+| :V1 | :V2 | :V3 | :V4 |
+|----:|----:|----:|-----|
+|   1 |   1 | 0.5 |   A |
+|   2 |   2 | 1.0 |   B |
+|   1 |   3 | 1.5 |   C |
+|   2 |   4 | 0.5 |   A |
+|   1 |   5 | 1.0 |   B |
+|   2 |   6 | 1.5 |   C |
+|   1 |   7 | 0.5 |   A |
+|   2 |   8 | 1.0 |   B |
+|   1 |   9 | 1.5 |   C |
+
+nil
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [9 4]:
+
+| :V1 | :V2 | :V3 | :V4 |
+|----:|----:|----:|-----|
+|   1 |   1 | 0.5 |   A |
+|   2 |   2 | 1.0 |   B |
+|   1 |   3 | 1.5 |   C |
+|   2 |   4 | 0.5 |   A |
+|   1 |   5 | 1.0 |   B |
+|   2 |   6 | 1.5 |   C |
+|   1 |   7 | 0.5 |   A |
+|   2 |   8 | 1.0 |   B |
+|   1 |   9 | 1.5 |   C |
+
+nil
+clj꞉clojure-dataframe.core꞉> 
+:_unnamed [2 3]:
+
+| 0 | 1 | 2 |
+|--:|--:|--:|
+| 3 | 4 | 5 |
+| 7 | 6 | 9 |
+
+clj꞉clojure-dataframe.core꞉> 
+; Syntax error compiling at (src/clojure_dataframe/core.clj:20:1).
+; Unable to resolve symbol: x in this context
+clj꞉clojure-dataframe.core꞉> 
+; Execution error (ClassCastException) at ham_fisted.Casts/doubleCast (Casts.java:109).
+; clojure.lang.Keyword cannot be cast to java.lang.Number
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [5 3]:
+
+| :x | :y | :z |
+|---:|---:|---:|
+|  1 |  1 |  2 |
+|  2 |  1 |  3 |
+|  3 |  1 |  4 |
+|  4 |  1 |  5 |
+|  5 |  1 |  6 |
+
+clj꞉clojure-dataframe.core꞉> 
+_unnamed [5 3]:
+
+| :x | :y | :z |
+|---:|---:|---:|
+|  1 |  1 |  2 |
+|  2 |  1 |  3 |
+|  3 |  1 |  4 |
+|  4 |  1 |  5 |
+|  5 |  1 |  6 |
+
+clj꞉clojure-dataframe.core꞉> 
+https://vega.github.io/vega-lite/examples/data/seattle-weather.csv [1461 6]:
+
+|       date | precipitation | temp_max | temp_min | wind | weather |
+|------------|--------------:|---------:|---------:|-----:|---------|
+| 2012-01-01 |           0.0 |     12.8 |      5.0 |  4.7 | drizzle |
+| 2012-01-02 |          10.9 |     10.6 |      2.8 |  4.5 |    rain |
+| 2012-01-03 |           0.8 |     11.7 |      7.2 |  2.3 |    rain |
+| 2012-01-04 |          20.3 |     12.2 |      5.6 |  4.7 |    rain |
+| 2012-01-05 |           1.3 |      8.9 |      2.8 |  6.1 |    rain |
+| 2012-01-06 |           2.5 |      4.4 |      2.2 |  2.2 |    rain |
+| 2012-01-07 |           0.0 |      7.2 |      2.8 |  2.3 |    rain |
+| 2012-01-08 |           0.0 |     10.0 |      2.8 |  2.0 |     sun |
+| 2012-01-09 |           4.3 |      9.4 |      5.0 |  3.4 |    rain |
+| 2012-01-10 |           1.0 |      6.1 |      0.6 |  3.4 |    rain |
+|        ... |           ... |      ... |      ... |  ... |     ... |
+| 2015-12-21 |          27.4 |      5.6 |      2.8 |  4.3 |    rain |
+| 2015-12-22 |           4.6 |      7.8 |      2.8 |  5.0 |    rain |
+| 2015-12-23 |           6.1 |      5.0 |      2.8 |  7.6 |    rain |
+| 2015-12-24 |           2.5 |      5.6 |      2.2 |  4.3 |    rain |
+| 2015-12-25 |           5.8 |      5.0 |      2.2 |  1.5 |    rain |
+| 2015-12-26 |           0.0 |      4.4 |      0.0 |  2.5 |     sun |
+| 2015-12-27 |           8.6 |      4.4 |      1.7 |  2.9 |    rain |
+| 2015-12-28 |           1.5 |      5.0 |      1.7 |  1.3 |    rain |
+| 2015-12-29 |           0.0 |      7.2 |      0.6 |  2.6 |     fog |
+| 2015-12-30 |           0.0 |      5.6 |     -1.0 |  3.4 |     sun |
+| 2015-12-31 |           0.0 |      5.6 |     -2.1 |  3.5 |     sun |
+
+clj꞉clojure-dataframe.core꞉> 
+(println "test")
+test
+nil
+clj꞉clojure-dataframe.core꞉> 
+#'clojure-dataframe.core/df
+clj꞉clojure-dataframe.core꞉> 
+https://vega.github.io/vega-lite/examples/data/seattle-weather.csv [1461 6]:
+
+|       date | precipitation | temp_max | temp_min | wind | weather |
+|------------|--------------:|---------:|---------:|-----:|---------|
+| 2012-01-01 |           0.0 |     12.8 |      5.0 |  4.7 | drizzle |
+| 2012-01-02 |          10.9 |     10.6 |      2.8 |  4.5 |    rain |
+| 2012-01-03 |           0.8 |     11.7 |      7.2 |  2.3 |    rain |
+| 2012-01-04 |          20.3 |     12.2 |      5.6 |  4.7 |    rain |
+| 2012-01-05 |           1.3 |      8.9 |      2.8 |  6.1 |    rain |
+| 2012-01-06 |           2.5 |      4.4 |      2.2 |  2.2 |    rain |
+| 2012-01-07 |           0.0 |      7.2 |      2.8 |  2.3 |    rain |
+| 2012-01-08 |           0.0 |     10.0 |      2.8 |  2.0 |     sun |
+| 2012-01-09 |           4.3 |      9.4 |      5.0 |  3.4 |    rain |
+| 2012-01-10 |           1.0 |      6.1 |      0.6 |  3.4 |    rain |
+|        ... |           ... |      ... |      ... |  ... |     ... |
+| 2015-12-21 |          27.4 |      5.6 |      2.8 |  4.3 |    rain |
+| 2015-12-22 |           4.6 |      7.8 |      2.8 |  5.0 |    rain |
+| 2015-12-23 |           6.1 |      5.0 |      2.8 |  7.6 |    rain |
+| 2015-12-24 |           2.5 |      5.6 |      2.2 |  4.3 |    rain |
+| 2015-12-25 |           5.8 |      5.0 |      2.2 |  1.5 |    rain |
+| 2015-12-26 |           0.0 |      4.4 |      0.0 |  2.5 |     sun |
+| 2015-12-27 |           8.6 |      4.4 |      1.7 |  2.9 |    rain |
+| 2015-12-28 |           1.5 |      5.0 |      1.7 |  1.3 |    rain |
+| 2015-12-29 |           0.0 |      7.2 |      0.6 |  2.6 |     fog |
+| 2015-12-30 |           0.0 |      5.6 |     -1.0 |  3.4 |     sun |
+| 2015-12-31 |           0.0 |      5.6 |     -2.1 |  3.5 |     sun |
+
+nil
+clj꞉clojure-dataframe.core꞉> 
+(#tech.v3.dataset.column<packed-local-date>[1461]
+date
+[2012-01-01, 2012-01-02, 2012-01-03, 2012-01-04, 2012-01-05, 2012-01-06, 2012-01-07, 2012-01-08, 2012-01-09, 2012-01-10, 2012-01-11, 2012-01-12, 2012-01-13, 2012-01-14, 2012-01-15, 2012-01-16, 2012-01-17, 2012-01-18, 2012-01-19, 2012-01-20...] #tech.v3.dataset.column<float64>[1461]
+precipitation
+[0.000, 10.90, 0.8000, 20.30, 1.300, 2.500, 0.000, 0.000, 4.300, 1.000, 0.000, 0.000, 0.000, 4.100, 5.300, 2.500, 8.100, 19.80, 15.20, 13.50...] #tech.v3.dataset.column<float64>[1461]
+temp_max
+[12.80, 10.60, 11.70, 12.20, 8.900, 4.400, 7.200, 10.00, 9.400, 6.100, 6.100, 6.100, 5.000, 4.400, 1.100, 1.700, 3.300, 0.000, -1.100, 7.200...] #tech.v3.dataset.column<float64>[1461]
+temp_min
+[5.000, 2.800, 7.200, 5.600, 2.800, 2.200, 2.800, 2.800, 5.000, 0.6000, -1.100, -1.700, -2.800, 0.6000, -3.300, -2.800, 0.000, -2.800, -2.800, -1.100...] #tech.v3.dataset.column<float64>[1461]
+wind
+[4.700, 4.500, 2.300, 4.700, 6.100, 2.200, 2.300, 2.000, 3.400, 3.400, 5.100, 1.900, 1.300, 5.300, 3.200, 5.000, 5.600, 5.000, 1.600, 2.300...] #tech.v3.dataset.column<string>[1461]
+weather
+[drizzle, rain, rain, rain, rain, rain, rain, sun, rain, rain, sun, sun, sun, snow, snow, snow, snow, snow, snow, snow...])nil
+clj꞉clojure-dataframe.core꞉> 
+#tech.v3.dataset.column<packed-local-date>[1461]
+date
+[2012-01-01, 2012-01-02, 2012-01-03, 2012-01-04, 2012-01-05, 2012-01-06, 2012-01-07, 2012-01-08, 2012-01-09, 2012-01-10, 2012-01-11, 2012-01-12, 2012-01-13, 2012-01-14, 2012-01-15, 2012-01-16, 2012-01-17, 2012-01-18, 2012-01-19, 2012-01-20...]nil
+clj꞉clojure-dataframe.core꞉> 
+; Execution error at tech.v3.dataset.impl.dataset.Dataset/column (dataset.clj:296).
+; Column not found: :as-map
+clj꞉clojure-dataframe.core꞉> 
+; Execution error at tech.v3.dataset.impl.dataset.Dataset/column (dataset.clj:296).
+; Column not found: :as-map
+clj꞉clojure-dataframe.core꞉> 
+(date precipitation temp_max temp_min wind weather)
+nil
+clj꞉clojure-dataframe.core꞉> 
+#function[clojure.core/take/fn--5974]
+nil
+clj꞉clojure-dataframe.core꞉> 
+([date #tech.v3.dataset.column<packed-local-date>[1461]
+date
+[2012-01-01, 2012-01-02, 2012-01-03, 2012-01-04, 2012-01-05, 2012-01-06, 2012-01-07, 2012-01-08, 2012-01-09, 2012-01-10, 2012-01-11, 2012-01-12, 2012-01-13, 2012-01-14, 2012-01-15, 2012-01-16, 2012-01-17, 2012-01-18, 2012-01-19, 2012-01-20...]] [precipitation #tech.v3.dataset.column<float64>[1461]
+precipitation
+[0.000, 10.90, 0.8000, 20.30, 1.300, 2.500, 0.000, 0.000, 4.300, 1.000, 0.000, 0.000, 0.000, 4.100, 5.300, 2.500, 8.100, 19.80, 15.20, 13.50...]])
+nil
+clj꞉clojure-dataframe.core꞉> 
+(date precipitation temp_max temp_min wind weather)
+nil
+clj꞉clojure-dataframe.core꞉> 
+([#object[java.time.LocalDate 0x76ab805f 2012-01-01] 0.0 12.8 5.0 4.7 drizzle] [#object[java.time.LocalDate 0xae6bc05 2012-01-02] 10.9 10.6 2.8 4.5 rain])
+nil
+clj꞉clojure-dataframe.core꞉> 
+({"date" #object[java.time.LocalDate 0x1e42178b "2012-01-01"],
+  "precipitation" 0.0,
+  "temp_max" 12.8,
+  "temp_min" 5.0,
+  "wind" 4.7,
+  "weather" "drizzle"}
+ {"date" #object[java.time.LocalDate 0x457223e6 "2012-01-02"],
+  "precipitation" 10.9,
+  "temp_max" 10.6,
+  "temp_min" 2.8,
+  "wind" 4.5,
+  "weather" "rain"})
+nil
+clj꞉clojure-dataframe.core꞉> 
+({date #object[java.time.LocalDate 0x3739148c 2012-01-01], precipitation 0.0, temp_max 12.8, temp_min 5.0, wind 4.7, weather drizzle} {date #object[java.time.LocalDate 0x690f60db 2012-01-02], precipitation 10.9, temp_max 10.6, temp_min 2.8, wind 4.5, weather rain})
+nil
+clj꞉clojure-dataframe.core꞉> 
+({date #object[java.time.LocalDate 0x230d445 2012-01-01], precipitation 0.0, temp_max 12.8, temp_min 5.0, wind 4.7, weather drizzle} {date #object[java.time.LocalDate 0x61d80b4c 2012-01-02], precipitation 10.9, temp_max 10.6, temp_min 2.8, wind 4.5, weather rain})
+nil
+clj꞉clojure-dataframe.core꞉> 
+({date #object[java.time.LocalDate 0x151db78e 2012-01-01], precipitation 0.0, temp_max 12.8, temp_min 5.0, wind 4.7, weather drizzle} {date #object[java.time.LocalDate 0x62fae183 2012-01-02], precipitation 10.9, temp_max 10.6, temp_min 2.8, wind 4.5, weather rain})nil
+clj꞉clojure-dataframe.core꞉> 
+({date #object[java.time.LocalDate 0x12947eb3 2012-01-01], precipitation 0.0, temp_max 12.8, temp_min 5.0, wind 4.7, weather drizzle} {date #object[java.time.LocalDate 0x7fe7efa9 2012-01-02], precipitation 10.9, temp_max 10.6, temp_min 2.8, wind 4.5, weather rain})nil
+clj꞉clojure-dataframe.core꞉> 
+({"date" #object[java.time.LocalDate 0x7f665e22 "2012-01-01"],
+  "precipitation" 0.0,
+  "temp_max" 12.8,
+  "temp_min" 5.0,
+  "wind" 4.7,
+  "weather" "drizzle"}
+ {"date" #object[java.time.LocalDate 0x3f8cf347 "2012-01-02"],
+  "precipitation" 10.9,
+  "temp_max" 10.6,
+  "temp_min" 2.8,
+  "wind" 4.5,
+  "weather" "rain"})
+nil
+clj꞉clojure-dataframe.core꞉> 

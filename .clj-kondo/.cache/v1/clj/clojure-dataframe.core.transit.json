@@ -1,1 +1,1 @@
-["^ ","~$foo",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$clojure-dataframe.core","~:top-ns","^7","~:type","~:fn"],"~:filename","/home/alfian/repository/clojure-dataframe/src/clojure_dataframe/core.clj"]
+["^ ","~$df",["^ ","~:row",24,"~:col",1,"~:name","^0","~:ns","~$clojure-dataframe.core","~:top-ns","^5"],"~:filename","/home/alfian/repository/clojure-dataframe/src/clojure_dataframe/core.clj"]
